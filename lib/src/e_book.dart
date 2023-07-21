@@ -102,7 +102,7 @@ class _EBookState extends State<EBook> {
         ? BookFx(
             size: Size(MediaQuery.of(context).size.width, widget.maxHeight),
             pageCount: allPages.length - 1,
-            currentBgColor: Colors.yellow.shade800,
+            currentBgColor: Colors.white,
             nextCallBack: (index) {
               debugPrint('下一页  $index');
             },
